@@ -238,3 +238,218 @@
    
     
 }
+/* =========================
+   MOBILE RESPONSIVE DESIGN
+   ========================= */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Prevent sections from becoming wider than screen */
+section,
+header,
+nav,
+main,
+footer {
+    max-width: 100%;
+}
+
+/* =========================
+   TABLET
+   ========================= */
+
+@media (max-width: 768px) {
+
+    /* Main containers */
+    .container,
+    .content,
+    .main,
+    .wrapper {
+        width: 100%;
+        max-width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    /* Headings */
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    h3 {
+        font-size: 21px;
+    }
+
+    /* Text */
+    p {
+        font-size: 16px;
+    }
+
+    /* Images */
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Flex layouts */
+    .row,
+    .products,
+    .product-container {
+        flex-wrap: wrap;
+    }
+}
+
+
+/* =========================
+   MOBILE PHONES
+   ========================= */
+
+@media (max-width: 480px) {
+
+    body {
+        font-size: 14px;
+    }
+
+    /* Headings */
+    h1 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    h3 {
+        font-size: 19px;
+    }
+
+    /* Make common containers fit phone */
+    .container,
+    .content,
+    .main,
+    .wrapper {
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    /* Product cards */
+    .product-container,
+    .products {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 15px;
+        width: 100%;
+    }
+
+    /* Cards */
+    .product,
+    .card,
+    .box {
+        width: 100%;
+        max-width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    /* Images inside cards */
+    .product img,
+    .card img,
+    .box img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    /* Buttons */
+    button,
+    .btn {
+        max-width: 100%;
+        padding: 10px 15px;
+    }
+
+    /* Inputs */
+    input,
+    textarea,
+    select {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    /* Navigation */
+    nav {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    /* Hero section */
+    .hero {
+        width: 100%;
+        max-width: 100%;
+        min-height: 300px;
+        padding: 20px 10px;
+    }
+
+    /* Remove excessive desktop spacing */
+    .hero h1,
+    .hero h2,
+    .hero p {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+
+/* =========================
+   VERY SMALL PHONES
+   ========================= */
+
+@media (max-width: 360px) {
+
+    h1 {
+        font-size: 22px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    .container,
+    .content,
+    .main,
+    .wrapper {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+}
