@@ -148,7 +148,7 @@
 .box{
     display: flex;
     justify-content: space-evenly;
-    height: 390px;
+    height: 400px;
     width: 25%;
     background-color: white;
     padding: 20px 0px 15px;
