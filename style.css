@@ -243,11 +243,19 @@ body{
 
     .navbar{
         height: auto;
-        min-height: 20px;
+        min-height: 55px;
         font-size: 1.3rem;
         padding: 8px;
         gap: 8px;
         flex-wrap: wrap;
+    }
+
+    .brnd-name{
+        padding: 10px;
+        margin: 0px;
+        height: auto;
+        min-height: 25px;
+        
     }
 
     .sign-in{
@@ -267,8 +275,8 @@ body{
     }
 
     .panel{
-        height: auto;
-        min-height: 40px;
+        /* height: auto; */
+        min-height: 20px;
     }
 
     .panel-all{
