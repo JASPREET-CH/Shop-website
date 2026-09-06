@@ -255,7 +255,8 @@ body{
         margin: 0px;
         height: auto;
         min-height: 25px;
-        
+        border:2px solid goldenrod;
+        border-radius: 5px;
     }
 
     .sign-in{
